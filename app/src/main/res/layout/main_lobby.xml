@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_lobby_pnl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    android:divider="@drawable/my_drawable"
+    android:dividerPadding="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text="invite" />
+
+    <Button
+        android:id="@+id/go_online"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text="go online" />
+</LinearLayout>

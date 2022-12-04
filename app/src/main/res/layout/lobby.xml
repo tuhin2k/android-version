@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lobby_pnl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    android:divider="@drawable/my_drawable"
+    android:dividerPadding="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <EditText
+        android:id="@+id/oppo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="opponent's id"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/b33"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="3*3" />
+
+    <Button
+        android:id="@+id/b44"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="4*4" />
+
+    <Button
+        android:id="@+id/b55"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="5*5" />
+
+    <Button
+        android:id="@+id/b66"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="6*6" />
+
+</LinearLayout>
